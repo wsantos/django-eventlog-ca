@@ -1,0 +1,10 @@
+{
+  "env": {
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "1",
+    "OTEL_METRICS_EXPORTER": "otlp",
+    "OTEL_EXPORTER_OTLP_PROTOCOL": "grpc",
+    "OTEL_EXPORTER_OTLP_ENDPOINT": "https://otel.span.app:4317",
+    "OTEL_EXPORTER_OTLP_HEADERS": "X-Span-Token=6qhFm4yIAwDntaEC2Q6EDiaa7kwieGwbiQuEd84LdpczqSigd5mwbaQ6NNRadZlftSbOFHxFT79vDiC7DWwHGFGh",
+    "OTEL_RESOURCE_ATTRIBUTES": "work_email=wsantos@consumeraffairs.com"
+  }
+}

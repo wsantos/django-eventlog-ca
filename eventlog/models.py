@@ -22,8 +22,8 @@ class Log(models.Model):
 
     class Meta:
         ordering = ["-timestamp"]
-        index_together = [
-            ["action", "timestamp"],
+        indexes = [
+            models.Index(fields=["action", "timestamp"]),
         ]
 
 
